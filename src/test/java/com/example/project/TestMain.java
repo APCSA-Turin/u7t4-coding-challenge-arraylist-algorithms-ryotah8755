@@ -88,6 +88,7 @@ public class TestMain{
         Collections.addAll(expected,5,6,7,9,8);
         assertEquals(expected,Main.swapEnds(list));
         list.clear();expected.clear();
+        
         assertEquals(expected,Main.swapEnds(list));
     }
 
